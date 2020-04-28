@@ -8,6 +8,6 @@ def my_each(collection)
 
 end
 
-  my_each.coll do |coll|
+  my_each(coll) do |coll|
     puts coll
   end
