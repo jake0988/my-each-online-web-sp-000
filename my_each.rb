@@ -10,4 +10,3 @@ end
 
   my_each { |word| word }
   end
-end
