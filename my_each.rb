@@ -8,6 +8,5 @@ def my_each(words)
 
 end
 
-  my_each do |word|
-     word
+  my_each { |word| puts word }
   end
