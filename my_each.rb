@@ -9,5 +9,6 @@ end
 
 
 
-  my_each { |word| word }
+  my_each do |word|
+    puts "word" 
   end
