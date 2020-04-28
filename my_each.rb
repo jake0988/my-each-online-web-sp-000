@@ -8,6 +8,6 @@ def my_each(words)
 
 end
 
-  my_each(words) do |coll|
+  my_each("words") do |coll|
      coll
   end
