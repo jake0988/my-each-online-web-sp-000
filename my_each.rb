@@ -8,5 +8,5 @@ def my_each(words)
 
 end
 
-  my_each { |word| puts word }
+  my_each { |word| word }
   end
