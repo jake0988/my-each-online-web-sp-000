@@ -1,6 +1,13 @@
-def my_each(array)
-i = 0
-while i < array.length
-  yield
-  i += 1
+def my_each(collection)
+  i = 0
+
+  while i < collection.length
+    yield
+    i += 1
+  end
+
+end
+
+my_each do |coll|
+  puts coll
 end
