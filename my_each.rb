@@ -9,5 +9,5 @@ def my_each(words)
 end
 
   my_each do |word|
-     words
+     word
   end
