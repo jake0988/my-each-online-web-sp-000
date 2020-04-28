@@ -9,6 +9,6 @@ end
 
 
 
-  my_each("w") do |word|
+  my_each() do |word|
     word
   end
