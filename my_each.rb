@@ -5,10 +5,11 @@ def my_each(words)
     yield words[i]
     i += 1
   end
+  words
 end
 
 
 
-  my_each() do |word|
+  my_each("w") do |word|
     word
   end
