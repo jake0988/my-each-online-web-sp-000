@@ -8,6 +8,6 @@ def my_each(collection)
 
 end
 
-  my_each(collection) do
+  my_each.collection do
     puts collection
   end
